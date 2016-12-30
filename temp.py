@@ -20,7 +20,7 @@ try:
 
 except KeyboardInterrupt:
   LCD.clear()
-  LCD.write(0,0,'Goodbye')
+  LCD.write(0,0,'Goodbye you')
   LCD.write(0,1,'See you soon')
   time.sleep(5)
   LCD.clear()
